@@ -8,35 +8,65 @@ All colors MUST be HSL.
 
 @layer base {
   :root {
-    --background: 0 0% 100%;
-    --foreground: 222.2 84% 4.9%;
+    /* Trading App Dark Theme */
+    --background: 220 13% 8%;
+    --foreground: 210 17% 90%;
 
-    --card: 0 0% 100%;
-    --card-foreground: 222.2 84% 4.9%;
+    --card: 220 13% 12%;
+    --card-foreground: 210 17% 90%;
 
-    --popover: 0 0% 100%;
-    --popover-foreground: 222.2 84% 4.9%;
+    --popover: 220 13% 10%;
+    --popover-foreground: 210 17% 90%;
 
-    --primary: 222.2 47.4% 11.2%;
-    --primary-foreground: 210 40% 98%;
+    --primary: 210 100% 55%;
+    --primary-foreground: 210 17% 95%;
 
-    --secondary: 210 40% 96.1%;
-    --secondary-foreground: 222.2 47.4% 11.2%;
+    --secondary: 220 13% 15%;
+    --secondary-foreground: 210 17% 85%;
 
-    --muted: 210 40% 96.1%;
-    --muted-foreground: 215.4 16.3% 46.9%;
+    --muted: 220 13% 15%;
+    --muted-foreground: 215 16% 65%;
 
-    --accent: 210 40% 96.1%;
-    --accent-foreground: 222.2 47.4% 11.2%;
+    --accent: 220 13% 18%;
+    --accent-foreground: 210 17% 90%;
 
-    --destructive: 0 84.2% 60.2%;
+    --destructive: 0 84% 60%;
     --destructive-foreground: 210 40% 98%;
 
-    --border: 214.3 31.8% 91.4%;
-    --input: 214.3 31.8% 91.4%;
-    --ring: 222.2 84% 4.9%;
+    --border: 220 13% 20%;
+    --input: 220 13% 16%;
+    --ring: 210 100% 55%;
 
-    --radius: 0.5rem;
+    /* Trading-specific colors */
+    --gain: 142 71% 45%;
+    --gain-foreground: 142 71% 95%;
+    --gain-light: 142 71% 35%;
+    --gain-muted: 142 35% 25%;
+
+    --loss: 0 84% 55%;
+    --loss-foreground: 0 84% 95%;
+    --loss-light: 0 84% 45%;
+    --loss-muted: 0 42% 25%;
+
+    --neutral: 215 16% 60%;
+    --neutral-foreground: 215 16% 95%;
+    --neutral-muted: 215 16% 30%;
+
+    --chart-background: 220 13% 10%;
+    --chart-grid: 220 13% 25%;
+
+    /* Enhanced gradients */
+    --gradient-primary: linear-gradient(135deg, hsl(var(--primary)), hsl(210 100% 45%));
+    --gradient-gain: linear-gradient(135deg, hsl(var(--gain)), hsl(142 71% 35%));
+    --gradient-loss: linear-gradient(135deg, hsl(var(--loss)), hsl(0 84% 45%));
+    --gradient-background: linear-gradient(180deg, hsl(var(--background)), hsl(220 13% 6%));
+
+    /* Shadows */
+    --shadow-glow: 0 0 20px hsl(var(--primary) / 0.15);
+    --shadow-gain: 0 4px 20px hsl(var(--gain) / 0.25);
+    --shadow-loss: 0 4px 20px hsl(var(--loss) / 0.25);
+
+    --radius: 0.75rem;
 
     --sidebar-background: 0 0% 98%;
 

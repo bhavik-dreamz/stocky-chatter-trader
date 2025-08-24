@@ -52,6 +52,27 @@ export default {
 					DEFAULT: 'hsl(var(--card))',
 					foreground: 'hsl(var(--card-foreground))'
 				},
+				gain: {
+					DEFAULT: 'hsl(var(--gain))',
+					foreground: 'hsl(var(--gain-foreground))',
+					light: 'hsl(var(--gain-light))',
+					muted: 'hsl(var(--gain-muted))'
+				},
+				loss: {
+					DEFAULT: 'hsl(var(--loss))',
+					foreground: 'hsl(var(--loss-foreground))',
+					light: 'hsl(var(--loss-light))',
+					muted: 'hsl(var(--loss-muted))'
+				},
+				neutral: {
+					DEFAULT: 'hsl(var(--neutral))',
+					foreground: 'hsl(var(--neutral-foreground))',
+					muted: 'hsl(var(--neutral-muted))'
+				},
+				chart: {
+					background: 'hsl(var(--chart-background))',
+					grid: 'hsl(var(--chart-grid))'
+				},
 				sidebar: {
 					DEFAULT: 'hsl(var(--sidebar-background))',
 					foreground: 'hsl(var(--sidebar-foreground))',
@@ -62,6 +83,17 @@ export default {
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
 				}
+			},
+			backgroundImage: {
+				'gradient-primary': 'var(--gradient-primary)',
+				'gradient-gain': 'var(--gradient-gain)',
+				'gradient-loss': 'var(--gradient-loss)',
+				'gradient-background': 'var(--gradient-background)'
+			},
+			boxShadow: {
+				'glow': 'var(--shadow-glow)',
+				'gain': 'var(--shadow-gain)',
+				'loss': 'var(--shadow-loss)'
 			},
 			borderRadius: {
 				lg: 'var(--radius)',
